@@ -20,7 +20,7 @@ const KanbanBoard = () => {
     e.dataTransfer.setData("sourceColumn", sourceColumn);
   };
 
-  // Receive the ticketName and sourceColumn name via dataTransfer
+  
   // Push the ticketName to targetColumn array and remove it from sourceColumn
   const handleDrop = (e, targetColumn) => {
     const task = e.dataTransfer.getData("task");
