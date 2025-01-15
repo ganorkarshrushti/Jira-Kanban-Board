@@ -8,8 +8,6 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
-
-/* Header */
 h1 {
   text-align: center;
   margin-top: 20px;
@@ -19,8 +17,6 @@ h1 {
   text-shadow: 2px 2px 4px rgba(7, 7, 7, 0.1);
   animation: fadeInDown 0.5s ease-out;
 }
-
-/* Add Todo Section */
 .add-ticket {
   display: flex;
   justify-content: center;
@@ -43,7 +39,6 @@ h1 {
   font-size: 16px;
   transition: border-color 0.3s;
 }
-
 .add-ticket input:focus {
   border-color: #007bff;
   outline: none;
@@ -68,7 +63,7 @@ h1 {
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
-/* Kanban Board */
+/* K Board */
 .kanban-board {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -113,9 +108,9 @@ h1 {
 
 .task {
   background-color: #ffffff;
-  border-radius: 10px; /* Makes the box elliptical */
+  border-radius: 10px; 
   margin-bottom: 20px;
-  padding: 8px 15px; /* Adjust padding for better proportions */
+  padding: 8px 15px; 
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   font-size: 14px;
   display: flex;
@@ -138,7 +133,7 @@ h1 {
   color: #333;
   text-align: center; /* Center align text */
 }
-/* Animations */
+/* Animatio */
 @keyframes fadeInDown {
   from {
     opacity: 0;
